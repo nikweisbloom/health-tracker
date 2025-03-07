@@ -1,6 +1,6 @@
 import { useState, } from 'react';
-import type { Question } from '../models/Question.tsx';
-import { getQuestions } from '../services/questionApi.tsx';
+import type { Question } from '../models/Question.js';
+import { getQuestions } from '../services/questionApi.js';
 
 const Quiz = () => {
   const [questions, setQuestions] = useState<Question[]>([]);

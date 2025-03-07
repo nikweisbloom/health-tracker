@@ -1,4 +1,4 @@
-import Quiz from './components/Quiz.tsx';
+import Quiz from './components/Quiz';
 
 function App() {
   return (
