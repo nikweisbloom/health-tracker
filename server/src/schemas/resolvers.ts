@@ -1,5 +1,7 @@
 // import { Class } from '../models/index.js';
-import { Book, User } from '../models/index.js';
+// import { Book, User } from '../models/index.js';
+import User  from '../models/index.js';
+import Book from '../models/index.js';
 import { signToken, AuthenticationError } from '../utils/auth.js'; 
 
 // const resolvers = {
