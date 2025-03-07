@@ -3,7 +3,7 @@ import viteConfig from './vite.config';
 
 export default defineConfig({
   component: {
-    port: 5173,
+    port: 5000,
     devServer: {
       framework: 'react', 
       bundler: 'vite',
