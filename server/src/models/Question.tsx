@@ -1,4 +1,6 @@
 import { Schema, model, type Document } from 'mongoose';
+// import User from "../models/User";
+import User from '../models/index.js';
 
 interface IAnswer extends Document {
   text: string;

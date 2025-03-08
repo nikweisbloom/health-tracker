@@ -1,8 +1,8 @@
 // import { Class } from '../models/index.js';
 // import { Book, User } from '../models/index.js';
-import User  from '../models/index.js';
-import Book from '../models/index.js';
-import { signToken, AuthenticationError } from '../utils/auth.js'; 
+
+import { User, Book } from '../models/index';
+import { signToken, AuthenticationError } from '../utils/auth'; 
 
 // const resolvers = {
 //   Query: {
@@ -113,7 +113,7 @@ interface AddUserArgs {
         if (context.user) {
           const book = await Book.create({ ...input });
   
-          await User.findOneAndUpdate(
+          await User.findOneAndUpdate(                 
             { _id: context.user._id },
             { $addToSet: { book: book._id } }
           );

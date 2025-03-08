@@ -1,5 +1,6 @@
 import models from '../models/index.js';
 import db from '../config/connection.js';
+// import User from '../models/User';
 
 export default async (modelName: "Question", collectionName: string) => {
   try {

@@ -2,15 +2,15 @@ import db from "../config/connection.js";
 import Question from "../models/Question.js";
 import cleanDB from "./cleanDb.js";
 
-// import pythonQuestions from './pythonQuestions.json' assert { type: "json" };
+// import Questions from './Questions.json' assert { type: "json" };
 import { createRequire } from 'module';
 const require = createRequire(import.meta.url);
-const questionData = require('./pythonQuestions.json');
+const questionData = require('./Questions.json');
 
 db.once('open', async () => {
   await cleanDB('Question', 'questions');
 
-  // await Question.insertMany(pythonQuestions);
+  // await Question.insertMany(Questions);
   await Question.insertMany(questionData);  
 
   console.log('Questions seeded!');

@@ -1,182 +1,132 @@
 [
   {
-    "question": "What is the output of print(2 ** 3)?",
+    "question": "How often do you get a health checkup?",
     "answers": [
-      { "text": "6", "isCorrect": false },
-      { "text": "8", "isCorrect": true },
-      { "text": "9", "isCorrect": false },
-      { "text": "12", "isCorrect": false }
+      { "text": "Once in 3 months", "isCorrect": true },
+      { "text": "Once in 6 months", "isCorrect": true },
+      { "text": "Once a year", "isCorrect": true },
+      { "text": "Only when needed", "isCorrect": true },
+      { "text": "Never get it done", "isCorrect": true },
+      { "text": "Other", "isCorrect": true }
     ]
   },
   {
-    "question": "Which of the following is a mutable data type in Python?",
+    "question": "What do you say about your overall health??",
     "answers": [
-      { "text": "str", "isCorrect": false },
-      { "text": "tuple", "isCorrect": false },
-      { "text": "list", "isCorrect": true },
-      { "text": "int", "isCorrect": false }
+      { "text": "Having Good Physical Health", "isCorrect": true },
+      { "text": "Moderately physically impaired", "isCorrect": true },
+      { "text": "Severely physically impaired", "isCorrect": true },
+      { "text": "Totally physically impaired", "isCorrect": true }
     ]
   },
   {
-    "question": "What is the keyword used to define a function in Python?",
+    "question": "What is your age group?",
     "answers": [
-      { "text": "function", "isCorrect": false },
-      { "text": "func", "isCorrect": false },
-      { "text": "def", "isCorrect": true },
-      { "text": "define", "isCorrect": false }
+      { "text": "Under 18", "isCorrect": true },
+      { "text": "18-20", "isCorrect": true },
+      { "text": "21-35", "isCorrect": true },
+      { "text": "36-60", "isCorrect": true },
+      { "text": "Above 60", "isCorrect": true }
     ]
   },
   {
-    "question": "Which of the following is used to create an empty set?",
+    "question": "Do you smoke?",
     "answers": [
-      { "text": "{}", "isCorrect": false },
-      { "text": "[]", "isCorrect": false },
-      { "text": "set()", "isCorrect": true },
-      { "text": "()", "isCorrect": false }
+      { "text": "Yes", "isCorrect": true },
+      { "text": "No", "isCorrect": true },
+      { "text": "Occasionally", "isCorrect": true },
+      { "text": "Used to, but quit", "isCorrect": true }
     ]
   },
   {
-    "question": "What is the output of len('hello world')?",
+    "question": "How often do you consume alcohol?",
     "answers": [
-      { "text": "10", "isCorrect": false },
-      { "text": "11", "isCorrect": true },
-      { "text": "12", "isCorrect": false },
-      { "text": "13", "isCorrect": false }
+      { "text": "Daily", "isCorrect": true },
+      { "text": "Weekly", "isCorrect": true },
+      { "text": "Monthly", "isCorrect": true },
+      { "text": "Yearly", "isCorrect": true },
+      { "text": "Yes", "isCorrect": true }     
     ]
   },
   {
-    "question": "Which method is used to remove whitespace from the beginning and end of a string?",
+    "question": "Are you physically active?",
     "answers": [
-      { "text": "strip()", "isCorrect": true },
-      { "text": "trim()", "isCorrect": false },
-      { "text": "clean()", "isCorrect": false },
-      { "text": "remove()", "isCorrect": false }
+      { "text": "Yes", "isCorrect": true },
+      { "text": "Regularly", "isCorrect": true },
+      { "text": "Occasionally", "isCorrect": true },
+      { "text": "Rarely", "isCorrect": true },
+      { "text": "No", "isCorrect": true }
     ]
   },
   {
-    "question": "What does the // operator do in Python?",
+    "question": "Do you have any chronic diseases?",
     "answers": [
-      { "text": "Performs integer division", "isCorrect": true },
-      { "text": "Performs floating-point division", "isCorrect": false },
-      { "text": "Calculates the power of a number", "isCorrect": false },
-      { "text": "Performs a logical AND operation", "isCorrect": false }
+      { "text": "Yes", "isCorrect": true },
+      { "text": "No", "isCorrect": true }
     ]
   },
   {
-    "question": "Which of the following is a valid variable name in Python?",
+    "question": "Do you have any hereditary conditions/diseases?",
     "answers": [
-      { "text": "1_variable", "isCorrect": false },
-      { "text": "variable_1", "isCorrect": true },
-      { "text": "variable-1", "isCorrect": false },
-      { "text": "variable 1", "isCorrect": false }
+      { "text": "High blood pressure", "isCorrect": true },
+      { "text": "Diabetes", "isCorrect": true },
+      { "text": "Hemophilia", "isCorrect": true },
+      { "text": "Thalassemia", "isCorrect": true },
+      { "text": "Huntington", "isCorrect": true },
+      { "text": "Other (Please specify)", "isCorrect": true }
     ]
   },
   {
-    "question": "What is the output of type(3.14)?",
+    "question": "Are you habitual to drugs and alcohol?",
     "answers": [
-      { "text": "<class 'int'>", "isCorrect": false },
-      { "text": "<class 'float'>", "isCorrect": true },
-      { "text": "<class 'complex'>", "isCorrect": false },
-      { "text": "<class 'decimal'>", "isCorrect": false }
+      { "text": "Yes to both", "isCorrect": true },
+      { "text": "Only to drugs", "isCorrect": true },
+      { "text": "Only to alcohol", "isCorrect": true },
+      { "text": "I am not habituated to either", "isCorrect": true }
     ]
   },
   {
-    "question": "Which of the following statements is used to handle exceptions in Python?",
+    "question": "Over the past 2 weeks, how often have you felt nervous, anxious, or on edge?",
     "answers": [
-      { "text": "catch", "isCorrect": false },
-      { "text": "except", "isCorrect": true },
-      { "text": "handle", "isCorrect": false },
-      { "text": "try", "isCorrect": false }
+      { "text": "Not all", "isCorrect": true },
+      { "text": "Several days", "isCorrect": true },
+      { "text": "More days than not", "isCorrect": true },
+      { "text": "Nearly every day", "isCorrect": true }
     ]
-  },
+  },      
   {
-    "question": "What is the output of 'hello' + 'world'?",
+    "question": "Over the past 2 weeks, how often have you felt down, depressed, or hopeless?",
     "answers": [
-      { "text": "hello world", "isCorrect": false },
-      { "text": "helloworld", "isCorrect": true },
-      { "text": "hello+world", "isCorrect": false },
-      { "text": "hello world!", "isCorrect": false }
+      { "text": "Nearly every day", "isCorrect": true },
+      { "text": "More days than not", "isCorrect": true },
+      { "text": "Several days", "isCorrect": true },
+      { "text": "Not all", "isCorrect": true }
     ]
-  },
+  },      
   {
-    "question": "What does the range function do?",
+    "question": "Over the past 2 weeks, how often have you felt little interest or pleasure in doing things?",
     "answers": [
-      { "text": "Generates a list of numbers", "isCorrect": true },
-      { "text": "Creates an iterator that generates a sequence of numbers", "isCorrect": true },
-      { "text": "Creates a list of tuples", "isCorrect": false },
-      { "text": "Generates random numbers", "isCorrect": false }
+      { "text": "Not all", "isCorrect": true },
+      { "text": "Several days", "isCorrect": true },
+      { "text": "More days than not", "isCorrect": true },
+      { "text": "Nearly every day", "isCorrect": true }
     ]
-  },
+  },      
   {
-    "question": "What is the correct syntax to create a dictionary in Python?",
+    "question": "How would you describe the condition of your mouth and teeth, including false teeth or dentures?",
     "answers": [
-      { "text": "{'name': 'John', 'age': 30}", "isCorrect": true },
-      { "text": "<'name': 'John', 'age': 30>", "isCorrect": false },
-      { "text": "['name': 'John', 'age': 30]", "isCorrect": false },
-      { "text": "('name': 'John', 'age': 30)", "isCorrect": false }
+      { "text": "Poor", "isCorrect": true },
+      { "text": "Average", "isCorrect": true },
+      { "text": "Good", "isCorrect": true },
+      { "text": "Excellent", "isCorrect": true }
     ]
-  },
+  },    
   {
-    "question": "Which of the following can be used to create an empty list in Python?",
+    "question": "How often do you have trouble taking medicines the way you have been told to take them?",
     "answers": [
-      { "text": "[]", "isCorrect": true },
-      { "text": "{}", "isCorrect": false },
-      { "text": "()", "isCorrect": false },
-      { "text": "set()", "isCorrect": false }
+      { "text": "I seldom take them as prescribed", "isCorrect": true },
+      { "text": "Sometimes I take them as prescribed", "isCorrect": true },
+      { "text": "I seldom take them as prescribed", "isCorrect": true }
     ]
-  },
-  {
-    "question": "What does the method append() do in a list?",
-    "answers": [
-      { "text": "Adds a new element at the end of the list", "isCorrect": true },
-      { "text": "Removes the last element of the list", "isCorrect": false },
-      { "text": "Sorts the list in ascending order", "isCorrect": false },
-      { "text": "Removes all elements from the list", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "How do you create a tuple in Python?",
-    "answers": [
-      { "text": "[]", "isCorrect": false },
-      { "text": "{}", "isCorrect": false },
-      { "text": "()", "isCorrect": true },
-      { "text": "tuple[]", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "What is the output of print(3 == 3.0)?",
-    "answers": [
-      { "text": "False", "isCorrect": false },
-      { "text": "True", "isCorrect": true },
-      { "text": "3", "isCorrect": false },
-      { "text": "3.0", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "What is the keyword to define a class in Python?",
-    "answers": [
-      { "text": "function", "isCorrect": false },
-      { "text": "def", "isCorrect": false },
-      { "text": "class", "isCorrect": true },
-      { "text": "module", "isCorrect": false }
-    ]
-  },
-  {
-    "question": "Which of the following is not a built-in data type in Python?",
-    "answers": [
-      { "text": "list", "isCorrect": false },
-      { "text": "dict", "isCorrect": false },
-      { "text": "tuple", "isCorrect": false },
-      { "text": "array", "isCorrect": true }
-    ]
-  },
-  {
-    "question": "How do you start a comment in Python?",
-    "answers": [
-      { "text": "//", "isCorrect": false },
-      { "text": "/*", "isCorrect": false },
-      { "text": "#", "isCorrect": true },
-      { "text": "<!--", "isCorrect": false }
-    ]
-  }
+  }                          
 ]
