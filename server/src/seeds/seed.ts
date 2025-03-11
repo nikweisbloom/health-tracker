@@ -1,6 +1,6 @@
 import db from "../config/connection.js";
 import Question from "../models/Question.js";
-import cleanDB from "./cleanDb.js";
+import cleanDB from "./cleanDb.ts/index.js";
 
 // import Questions from './Questions.json' assert { type: "json" };
 import { createRequire } from 'module';

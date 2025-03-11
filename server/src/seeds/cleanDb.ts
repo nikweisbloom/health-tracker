@@ -1,5 +1,8 @@
+// import Question from '../models/index.js';
 import models from '../models/index.js';
 import db from '../config/connection.js';
+// import mongoose, { Schema, Document, Model } from 'mongoose';
+// import mongoose from 'mongoose';
 // import User from '../models/User';
 
 export default async (modelName: "Question", collectionName: string) => {
@@ -13,6 +16,8 @@ export default async (modelName: "Question", collectionName: string) => {
 
     if (modelExists.length) {
       await db.dropCollection(collectionName);
+      // await db.db.dropCollection(collectionName);
+      // await mongoose.connection.db.dropCollection(collectionName);
     }
     } else {
       throw new Error(`Model "${modelName}" does not exist.`);
